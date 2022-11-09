@@ -30,12 +30,13 @@ Oh great. Ok, over 9002?
 
 Assuming they mean _port 9002_ we close out the TCP Stream and use a display filter as follows:
 
-![[eavesDrop_DisplayFilter.png]]
+![alt text](../images/eavesDrop_DisplayFilter.png)
 Now we only have a few packets to look through
 
 Clicking through the packets we find one that looks like this: 
 
-![[eavesDrop_FoundSalted.png]]
+![alt text](../images/eavesDrop_FoundSalted.png)
+
 
 **The next few steps are is very important**
 
