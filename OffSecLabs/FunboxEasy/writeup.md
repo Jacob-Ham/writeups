@@ -30,7 +30,7 @@ success, lets go checkout the store directory.
 ![alt text](images/5.png)
 
 
-I see PHP and SQL are mentioned which immidiatly makes me thing sqli ---> php reverse shell as out way in,
+I see PHP and SQL are mentioned which immediately makes me thing sqli ---> php reverse shell as out way in,
 scrolling down more theres an admin login link, we are greeted with a login page
 lets try sqli to bypass the password.
 
