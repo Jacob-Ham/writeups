@@ -1,8 +1,8 @@
 # writeups for various CTFs / Labs
 
 
-[CrewCTF](CrewCTF/README)
+[CrewCTF](CrewCTF/)
 
-[picoCTF 2022](picoCTF2022/README)
+[picoCTF 2022](picoCTF2022/)
 
 [Offensive Security Labs](OffSecLabs/)
