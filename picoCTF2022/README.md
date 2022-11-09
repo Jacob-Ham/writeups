@@ -1,13 +1,13 @@
 # picoCTF 2022 Writeups
 
 ### Cryptography
-[Sum-O-Primes](../main/Cryptography/Sum-O-Primes.md)
+[Sum-O-Primes](Cryptography/Sum-O-Primes.md)
 
 ### Forensics
-[Enhance!](../main/Forensics/Enhance!.md)
+[Enhance!](Forensics/Enhance!.md)
 
-[Eavesdrop](../main/Forensics/Eavesdrop.md)
+[Eavesdrop](Forensics/Eavesdrop.md)
 
-[Torrent-Analyze](../main/Forensics/Torrent-Analyze.md)
+[Torrent-Analyze](Forensics/Torrent-Analyze.md)
 
 
