@@ -1,3 +1,3 @@
 ## Writeups for offsec labs
 
-[Funboxeasy](FunboxEasy/README.md)
+[Funboxeasy](FunboxEasy/writeup.md)
