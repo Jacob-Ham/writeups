@@ -22,13 +22,13 @@ We know torrents need peers and trackers to function properly
 [https://en.wikipedia.org/wiki/BitTorrent_tracker](https://en.wikipedia.org/wiki/BitTorrent_tracker)
 
 Trackers keep track of which peers have which portions of the file, we also learn trackers have an “announce” HTTP packet that lists the tracker name and the file being downloaded. Looking at our pcap in Wireshark we don’t see any “announce” HTTP packet
-![[torrentAnalyze_http.png]]
+![alt text](../images/torrentAnalyze_http.png)
 
 ![](file:///tmp/lu87119d6p3m.tmp/lu87119d6p3v_tmp_97c4e3142befcd7c.png)  
 
   
 BUT we do have some DNS query’s to the Ubuntu torrent repo so we can safely assume we are looking for an iso related to ubuntu.
-![[TorrentAnalyze_DNS.png]]
+![alt text](../images/TorrentAnalyze_DNS.png)
 ![](file:///tmp/lu87119d6p3m.tmp/lu87119d6p3v_tmp_89225f1c91c67a53.png)  
 
 How could this torrent be _**trackerless**_?
@@ -50,19 +50,20 @@ Sort packets by time, right click on the first UDP packet, select “Decode As�
 change the “current” to BT-DHT and make sure everything matches the screenshot below:
 
 ![](file:///tmp/lu87119d6p3m.tmp/lu87119d6p3v_tmp_d49686a219585c1c.png)  
-![[torrentAnalyze_decode.png]]
+![alt text](../images/torrentAnalyze_decode.png)
+
 
     
 
   
 
 ![](file:///tmp/lu87119d6p3m.tmp/lu87119d6p3v_tmp_c105dcf205950359.png) Ok, now lets filter the packets by **BT-DHT**
-![[torrentAnalyze_filter.png]]
+![alt text](../images/torrentAnalyze_filter.png)
   
 
 
 We know nothing can happen until after peers are connected and we can assume before the download starts we would need to know if the info hash matches. We choose the packet just before the 2 peers reply. We get the following
-![[torrentAnalyz_infohash.png]]
+![alt text](../images/torrentAnalyz_infohash.png)
 ![](file:///tmp/lu87119d6p3m.tmp/lu87119d6p3v_tmp_74df824967fe44aa.png)  
 
 Found the info hash!
