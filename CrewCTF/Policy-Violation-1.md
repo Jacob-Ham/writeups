@@ -22,7 +22,7 @@ tsk_recover -e ewf1 ../imageExtract
 
 4. Looking through the directories two PDFs in the $RECYCLE.BIN directory look interesting. I know you can embed exploits into pdfs, so i upload them to virustotal and it shows the CVE 
 
-![[Virustotal.png.png]]
+![alt text](Virustotal.png.png)
 
 The flag format is crew{CVE-2008-2992_Date:MM.D.YY}
 
