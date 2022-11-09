@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "1062c06cdd44cba5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ddf18b4ab34c835",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76ddca08810f9955",
+    "type": "split",
+    "children": [
+      {
+        "id": "c07ffbd0221dcccd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47451689e95fdc5e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a2ff5db8e3c73193",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e674f203d5777e96",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b925e1fe30f0dc57",
+    "type": "split",
+    "children": [
+      {
+        "id": "40013089613aae0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38cde67b40d38829",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e31e21b84ccef905",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d90140e1a076b5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "64036b9434212fa0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1ddf18b4ab34c835",
+  "lastOpenFiles": [
+    "highCTF/idea.md",
+    "highCTF/idea.md.md",
+    "CrewCTF/CrewCTF Corrupted.md",
+    "CrewCTF/Virustotal.png.png",
+    "CrewCTF/CrewCTF - Policy Violation Pt.1.md",
+    "picoCTF2022/Forensics/Torrent-Analyze.md",
+    "picoCTF2022/Forensics/Enhance!.md",
+    "picoCTF2022/Forensics/Eavesdrop.md",
+    "picoCTF2022/Cryptography/Sum-O-Primes.md",
+    "picoCTF2022/picoCTF2022/README.md"
+  ]
+}
