@@ -2,4 +2,4 @@
 
 [Funboxeasy](FunboxEasy/writeup.md)
 
-[Funboxrookie](Funboxrookie/REASME.md)
+[Funboxrookie](Funboxrookie/README.md)
