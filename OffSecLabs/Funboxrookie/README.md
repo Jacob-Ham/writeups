@@ -226,7 +226,7 @@ cd /root/
 cat proof.txt
 ```
 
-Overall easy box covering: anonymous FPT login, password cracking, and lack of history cleaning.  
+Overall easy box covering: anonymous FTP login, password cracking, and lack of history cleaning.  
 
 
 
