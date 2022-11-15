@@ -168,7 +168,7 @@ bash peas.sh
 ```
 linpeas didn`t turn up anything usefull, lets check out history files
 
-trying to cd anywhere gives an error, lets upgrade toa full tty python
+trying to cd anywhere gives an error, lets upgrade to a full tty python
 
 ```shell
 python3 -c `import os; os.system("/bin/bash");`
@@ -225,7 +225,6 @@ WE GOT ROOT
 cd /root/
 cat proof.txt
 ```
-
 
 Overall easy box covering: anonymous FPT login, password cracking, and lack of history cleaning.  
 
