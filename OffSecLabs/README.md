@@ -1,4 +1,4 @@
-## Writeups for offsec labs
+## Writeups for offsec labs / Vulnhub images
 
 [Funboxeasy](FunboxEasy/writeup.md)
 
