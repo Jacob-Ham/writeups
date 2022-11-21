@@ -3,3 +3,5 @@
 [Funboxeasy](FunboxEasy/writeup.md)
 
 [Funboxrookie](Funboxrookie/README.md)
+
+[EvilBoxOne](EvilBoxOne/README.md)
