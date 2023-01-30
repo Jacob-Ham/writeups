@@ -43,28 +43,6 @@ PORT   STATE SERVICE VERSION
 
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 
-TCP/IP fingerprint:
-
-OS:SCAN(V=7.93%E=4%D=1/29%OT=22%CT=1%CU=36834%PV=Y%DS=3%DC=T%G=Y%TM=63D7185
-
-OS:6%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=107%TI=Z%II=I%TS=A)SEQ(SP=1
-
-OS:06%GCD=1%ISR=109%TI=Z%TS=A)OPS(O1=M54EST11NW7%O2=M54EST11NW7%O3=M54ENNT1
-
-OS:1NW7%O4=M54EST11NW7%O5=M54EST11NW7%O6=M54EST11)WIN(W1=FE88%W2=FE88%W3=FE
-
-OS:88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M54ENNSNW7%CC=Y%Q=
-
-OS:)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y
-
-OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=16
-
-OS:4%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=8DE0%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
-
-Network Distance: 3 hops
-
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-
 TRACEROUTE (using port 993/tcp)
 
 HOP RTT      ADDRESS
@@ -155,42 +133,6 @@ I'm having trouble finding anything exploitable so let’s rerun that Nmap scan 
 
 └─$ sudo nmap -sV -sC -T4 -A 192.168.177.101 -p- -o scan
 
-[sudo] password for kali:
-
-Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-29 20:54 EST
-
-Stats: 0:02:51 elapsed; 0 hosts completed (1 up), 1 undergoing Traceroute
-
-Traceroute Timing: About 32.26% done; ETC: 20:57 (0:00:00 remaining)
-
-Stats: 0:02:52 elapsed; 0 hosts completed (1 up), 1 undergoing Traceroute
-
-Parallel DNS resolution of 3 hosts. Timing: About 33.33% done; ETC: 20:57 (0:00:00 remaining)
-
-Nmap scan report for 192.168.177.101
-
-Host is up (0.063s latency).
-
-Not shown: 65532 closed tcp ports (reset)
-
-PORT     STATE SERVICE VERSION
-
-22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
-
-| ssh-hostkey:
-
-|   3072 ef240eabd2b316b44b2e27c05f48798b (RSA)
-
-|   256 f2d8353f4959858507e6a20e657a8c4b (ECDSA)
-
-|_  256 0b2389c3c026d5645e93b7baf5147f3e (ED25519)
-
-80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
-
-|_http-title: Potato company
-
-|_http-server-header: Apache/2.4.41 (Ubuntu)
-
 2112/tcp open  ftp     ProFTPD
 
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)
@@ -198,44 +140,6 @@ PORT     STATE SERVICE VERSION
 | -rw-r--r--   1 ftp      ftp           901 Aug  2  2020 index.php.bak
 
 |_-rw-r--r--   1 ftp      ftp            54 Aug  2  2020 welcome.msg
-
-No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
-
-TCP/IP fingerprint:
-
-OS:SCAN(V=7.93%E=4%D=1/29%OT=22%CT=1%CU=36706%PV=Y%DS=3%DC=T%G=Y%TM=63D7240
-
-OS:6%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%II=I%TS=A)SEQ(SP=1
-
-OS:05%GCD=1%ISR=10B%TI=Z%TS=B)OPS(O1=M54EST11NW7%O2=M54EST11NW7%O3=M54ENNT1
-
-OS:1NW7%O4=M54EST11NW7%O5=M54EST11NW7%O6=M54EST11)WIN(W1=FE88%W2=FE88%W3=FE
-
-OS:88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M54ENNSNW7%CC=Y%Q=
-
-OS:)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y
-
-OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=16
-
-OS:4%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=E9B3%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
-
-Network Distance: 3 hops
-
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-
-TRACEROUTE (using port 23/tcp)
-
-HOP RTT      ADDRESS
-
-1   62.54 ms 192.168.45.1
-
-2   62.60 ms 192.168.251.1
-
-3   63.01 ms 192.168.177.101
-
-OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-
-Nmap done: 1 IP address (1 host up) scanned in 181.62 seconds.
 
 ```
 
