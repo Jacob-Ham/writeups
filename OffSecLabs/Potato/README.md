@@ -88,7 +88,6 @@ We have a simple html page with a picture of a potato, let’s explore the site 
 Do some directory busting!
 
 ```shell
-
 ┌──(kali㉿kali)-[~/Documents/potato]
 
 └─$ dirb http://192.168.177.101/ /usr/share/wordlists/dirb/common.txt
@@ -122,7 +121,6 @@ GENERATED WORDS: 4612                             �
 + http://192.168.177.101/admin (CODE:200|SIZE:245)
 
 ```
-
 /admin looks interesting
 
 we are greeted with a simple login page.
@@ -147,7 +145,7 @@ Looks like the form is not injectable, lets check that potato.jpg image for any 
 
 ```
 
-nothin found....
+nothing found....
 
 I'm having trouble finding anything exploitable so let’s rerun that Nmap scan but add the -p- flag to check the uncommon ports.
 
@@ -289,7 +287,7 @@ ftp>
 
 ````
 
-Nope, not allowed, let download the backup and see if we can anything interesting
+Nope, not allowed. lets download the backup and see if we can anything interesting
 
 ```shell
 
@@ -497,9 +495,8 @@ Access forbidden if you don't have permission to access.
 
 ```
 
-Exploring a little bit, the 'Logs' could possibly be a command injection...
-
-also, the ping page might be a command injection, let’s start with logs
+Exploring a little bit, the 'Logs' or the 'Ping' page could possibly be a command injection...
+ let’s start with logs
 
 ````
 
