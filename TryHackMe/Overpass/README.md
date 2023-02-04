@@ -129,11 +129,11 @@ to /api/login, waits for a response, if the response is not 'Incorrect Credentia
 
 a token 'statusOrCookie' can we just manually set that cookie?
 
-![image](writeups/TryHackMe/Overpass/images/1.png)
+![image](images/1.png)
 
 It worked!! we have access to the admin page.
 
-![image](writeups/TryHackMe/Overpass/images/2.png)
+![image](images/2.png)
 
 Looks like we have James's RSA private key, lets try to login with it.
 
@@ -283,7 +283,7 @@ this comment is alarming on line 20
 We know ROT is not encryption nor secure, CyberChef for the decode
 
 
-![image](writeups/TryHackMe/Overpass/images/3.png)
+![image](images/3.png)
 
 We got the password!
 
