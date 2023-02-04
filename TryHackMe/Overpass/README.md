@@ -85,9 +85,9 @@ stick that into sqlmap.
 This did not turn anything up. Lets look at the source code of this login.
 
 ## Initial Access
-```
+````
 
-````javascript
+````js
 
 async function login() {
 
