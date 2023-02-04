@@ -85,9 +85,9 @@ stick that into sqlmap.
 This did not turn anything up. Lets look at the source code of this login.
 
 ## Initial Access
-````
 
-````js
+
+```js
 
 async function login() {
 
@@ -121,7 +121,7 @@ async function login() {
 
 }
 
-````
+```
 
 It looks like this javascript handles the login, it says to post the user and pass data to
 
