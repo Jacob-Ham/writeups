@@ -10,7 +10,7 @@ Lets run an nmap scan on the ip to gather some information on the box
 
 
 We see an apache server is running on port 80, 443 and an ssh on 22. 
-Since ssh is a new version and not a very wide attack service let start 
+Since ssh is a new version and not a very wide attack surface lets start 
 by checking out the webserver and visit the site. 
 
 ![images](images/2.png)
