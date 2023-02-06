@@ -38,7 +38,7 @@ Clicking through the packets we find one that looks like this:
 ![alt text](../images/eavesDrop_FoundSalted.png)
 
 
-**The next few steps are is very important**
+**The next few steps are very important**
 
 1. We have to export this packet
 2. No, you cannot copy and paste the ASCII text into a file you will waste a lot time doing this!
