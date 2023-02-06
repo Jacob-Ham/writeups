@@ -27,8 +27,8 @@ success, lets go checkout the store directory.
 
 ![images](images/5.png)
 
-I see PHP and SQL are mentioned which immidiatly makes me thing sqli ---> php reverse shell as out way in,
-scrolling down more theres an admin login link, we are greeted with a login page
+I see PHP and SQL are mentioned which immediately makes me think sqli ---> php reverse shell as our way in,
+scrolling down more there’s an admin login link, we are greeted with a login page.
 lets try sqli to bypass the password.
 
 ![images](images/6.png)
@@ -99,4 +99,4 @@ we got ROOT!
 
 Root flag: /root/proof.txt
 
-An easy box to get started and go through the general steps of a pentest. 
+An easy box to get started and go through the general steps of a pentest.
