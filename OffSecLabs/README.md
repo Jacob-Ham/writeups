@@ -5,3 +5,6 @@
 [Funboxrookie](Funboxrookie/README.md)
 
 [EvilBoxOne](EvilBoxOne/README.md)
+
+[Potato](Potato/README.md)
+
